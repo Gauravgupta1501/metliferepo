@@ -1,0 +1,116 @@
+    1  yum install epel-release
+    2  yum install ansible
+    3  ansible --version
+    4  ssh -keygen -t rsa
+    5  ssh-keygen -t rsa
+    6  vi /etc/hosts
+    7  root
+    8  hostnamectl set-hostname 
+    9  hostnamectl set-hostname--static ansiblemaster
+   10  hostnamectl set-hostname
+   11  hostnamectl set-hostname-- static ansiblemaster
+   12  hostnamectl set-hostname -static ansiblemaster
+   13  hostnamectl set-hostname --static ansiblemaster
+   14  bash
+   15  history
+   16  cd customer1
+   17  git clone https://github.com/gopal1409/metlifedevops.git customer1
+   18  cd customer1
+   19  ansible-playbook nginx.yaml
+   20  ls
+   21  vi nginx.yaml
+   22  ansible-playbook nginx.yaml
+   23  mkdir files
+   24  cd files/
+   25  vi nginx.conf.centos.patch
+   26  cd customer1
+   27  cd..
+   28  cd.
+   29  cd /
+   30  cd customer1
+   31  ls
+   32  cd
+   33  cd customer1
+   34  ansible-playbook nginx.yaml
+   35  cd files
+   36  ls
+   37  gedit nginx.conf.centos.patch
+   38  cd ..
+   39  mkdir template
+   40  ansible-playbook nginx.yaml
+   41  cd files
+   42  gedit nginx-default.conf
+   43  cd ..
+   44  ansible-playbook nginx.yaml
+   45  mkdir templates
+   46  ansible-playbook nginx.yaml
+   47  ls
+   48  cd templates
+   49  gedit index.html.j2
+   50  ansible-playbook nginx.yaml
+   51  cd ..
+   52  ansible-playbook nginx.yaml
+   53  root
+   54  yum install git
+   55  ls -la
+   56  git status
+   57  rm -rf .git
+   58  ls -la
+   59  git status
+   60  git init
+   61  ls -la
+   62  rm -rf .git
+   63  ls -la
+   64  git init
+   65  git status
+   66  git add motd.yaml
+   67  git status
+   68  git commit -m "first comment"
+   69  git config --global user.name "Gaurav"
+   70  git congig --global user.email "gaurab@gmail.com"
+   71  git config --global user.email "gaurab@gmail.com"
+   72  git commit -m "first commit"
+   73  git status
+   74  git log
+   75  git remote add origin https://github.com/Gauravgupta1501/metliferepo.git
+   76  git push -u origin master
+   77  git add .
+   78  git commit -m "All Push"
+   79  git push -u origin master
+   80  ls -la
+   81  git branch
+   82  git branch feature
+   83  git branch
+   84  git checkout feature
+   85  git branch
+   86  vi motd.yaml
+   87  git add .
+   88  git -m commit "third for feature"
+   89  git push -u origin feature
+   90  git status
+   91  git commit -m "third for feature"
+   92  git push -u origin feature
+   93  git branch
+   94  git checkout master
+   95  git branch
+   96  git branch --merged
+   97  git merge feature
+   98  git branch
+   99  git push -u origin master
+  100  git branch
+  101  git branch -a
+  102  git branch -d feature
+  103  git branch
+  104  git branch -a
+  105  git push origin --delete feature
+  106  git branch -a
+  107  history
+  108  git fetch
+  109  git pull
+  110  ls
+  111  vi motd.yaml
+  112  git diff motd.yaml
+  113  git checkout motd.yaml
+  114  git status
+  115  git diff motd.yaml
+  116  history > todayistory.txt
